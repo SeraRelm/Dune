@@ -73,7 +73,7 @@
 			//Kai made this function for the skybox (It's still overkill but at least it isnt interactive)
 			function createSkybox(url, update, _opacity) {
 				var _opacity = _opacity || false;
-				var sphereGeo = new THREE.SphereGeometry(400, 20, 20, Math.PI + 0.3, -2*Math.PI);
+				var sphereGeo = new THREE.SphereGeometry(800, 20, 20, Math.PI + 0.3, -2*Math.PI);
 				var texture = THREE.ImageUtils.loadTexture( url );
 
 				texture.needsUpdate = update;
