@@ -1,7 +1,14 @@
-newmtl lambert2SG
+newmtl Dune:lambert2SG
 illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
 map_Kd sand.jpg
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.75 0.75 0.75
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd House body .jpg
 Ni 1.00
