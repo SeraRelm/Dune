@@ -46,7 +46,7 @@
 			var snowDriftDistanceZ = 0.00001; //same for Z
 			var snowDriftSpeed = 0.1; //how quickly they go from left to right
 			var snowDriftSeparation = 10; //This is kinda a time offset for each of the flake's animations from the last one made. Its what I use to make them all seem random from each other
-			var snowGravity = 0.003; //How fast they fall
+			var snowGravity = 0.001; //How fast they fall
 			var snowflakeSpinSpeed = 0.01
 			var flakeBoxWidth = 3; // These three set the box in which the snow is spawned
 			var flakeBoxHeight = 3;
@@ -73,7 +73,7 @@
 			//Kai made this function for the skybox (It's still overkill but at least it isnt interactive)
 			function createSkybox(url, update, _opacity) {
 				var _opacity = _opacity || false;
-				var sphereGeo = new THREE.SphereGeometry(400, 20, 20, Math.PI + 0.3, -2*Math.PI);
+				var sphereGeo = new THREE.SphereGeometry(800, 20, 20, Math.PI + 0.3, -2*Math.PI);
 				var texture = THREE.ImageUtils.loadTexture( url );
 
 				texture.needsUpdate = update;
