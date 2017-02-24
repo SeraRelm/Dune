@@ -5,10 +5,23 @@ Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
 map_Kd sand.jpg
 Ni 1.00
-newmtl lambert2SG
+newmtl Dune:lambert2SG2
 illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
 map_Kd dunerock.jpg
+Ni 1.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.80 0.80 0.80
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd dunecave.jpg
 Ni 1.00

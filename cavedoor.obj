@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib cavedoor.mtl
+g Dune:default4
+v -10.492443 -0.248222 32.940353
+v -14.685659 9.547930 33.616341
+v -13.091505 9.913260 29.431971
+v -12.562730 0.704708 39.705700
+vt -1.847404 -0.052357
+vt -1.586455 0.208592
+vt -1.847404 0.208592
+vt -1.586455 -0.052357
+vn -0.761227 -0.078755 -0.643686
+vn -0.632059 -0.465777 -0.619317
+vn -0.301407 -0.579675 -0.757054
+vn -0.311482 -0.181780 -0.932703
+s off
+g Dune:defaultHideFaceDataSet Dune:pCube1 Dune:polySurface14 Dune:polySurfaceShape1HiddenFacesSet Dune:polySurface1
+usemtl Dune:lambert2SG2
+f 3/3/1 1/1/2 4/4/3 2/2/4

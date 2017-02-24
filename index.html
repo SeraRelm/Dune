@@ -53,12 +53,14 @@
 			var flakeBoxDepth = 3;
 			
 			var DuneCollider;
+			var cavedoor;
 
 			
 			//3D Models to load.
 			var  models =
 			[
 				{ name: 'Dune', type: '.obj', position: { x: 0, y: 0, z: 0}, offset: { x: 0, y: 0, z: 0 } }
+				{ name: 'cavedoor', type: '.obj', position: { x: 0, y: 0, z: 0}, offset: { x: 0, y: 0, z: 0 } }
 			];
 			
 			//These two functions are used by my snow to spawn at random locations
@@ -133,6 +135,13 @@
 						obj.position.z = 0.0;
 						//console.log(obj);
 						DuneCollider = new NativeComponent('n-mesh-collider', {convex: false}, obj);
+						
+						if (name === 'cavedoor') {
+						//obj.children[1].userData.altspace = {collider: {enabled: false}};
+						//obj.position.set(0, 1, 0);
+						obj.rotation.y = THREE.Math.degToRad(0.0);
+						obj.position.z = 0.0;
+						//console.log(obj);
 					}
                 }
             }
