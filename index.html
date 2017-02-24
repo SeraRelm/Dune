@@ -135,8 +135,9 @@
 						obj.position.z = 0.0;
 						//console.log(obj);
 						DuneCollider = new NativeComponent('n-mesh-collider', {convex: false}, obj);
-						
-						if (name === 'cavedoor') {
+					
+					}
+					if (name === 'cavedoor') {
 						//obj.children[1].userData.altspace = {collider: {enabled: false}};
 						//obj.position.set(0, 1, 0);
 						obj.rotation.y = THREE.Math.degToRad(0.0);
@@ -320,7 +321,7 @@
 			//END SNOWFLAKE ANIMATION STUFF
 				
 			}return { start: start };  //return this WHOLE thing to "start" which we will call once the enclosure opens or something
-		}(); //End of actual app!
+		}()); //End of actual app!
 
 		//Whenever altspace loads the file, request fullspace, then run your actual app
 		altspace.getEnclosure().then(function (enclosure) {
