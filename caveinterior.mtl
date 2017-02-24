@@ -1,0 +1,7 @@
+newmtl Dune:lambert2SG4
+illum 4
+Kd 0.75 0.75 0.75
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd dunecave.jpg
+Ni 1.00
