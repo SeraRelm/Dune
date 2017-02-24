@@ -320,7 +320,7 @@
 			//END SNOWFLAKE ANIMATION STUFF
 				
 			}return { start: start };  //return this WHOLE thing to "start" which we will call once the enclosure opens or something
-		}()); //End of actual app!
+		}(); //End of actual app!
 
 		//Whenever altspace loads the file, request fullspace, then run your actual app
 		altspace.getEnclosure().then(function (enclosure) {
